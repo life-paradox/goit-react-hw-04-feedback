@@ -1,0 +1,26 @@
+.feedbackBtnList {
+  display: flex;
+  column-gap: 8px;
+
+  margin-left: 16px;
+}
+
+.feedbackBtn {
+  background-color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+}
+
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.feedbackBtn:active {
+  background-color: rgb(226, 225, 225);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+}
