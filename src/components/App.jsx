@@ -36,7 +36,7 @@ const App = () => {
     setPositivePercentage(Math.round((good / total) * 100) + '%');
   };
 
-  useEffect(countPositiveFeedbackPercentage, [good, neutral, bad]);
+  useEffect(countPositiveFeedbackPercentage, [good, neutral, bad, total]);
 
   return (
     <div className={css.feedbackContainer}>
